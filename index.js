@@ -31,37 +31,3 @@ class Evergreen extends Tree {
         return super.definition() + ` Evergreens keep their leaves all year round.`
     }
 }
-// class Pet {
-//     constructor(name) {
-//       this._name = name;
-//       this._owner = null;
-//     }
-   
-//     get name() {
-//       return this._name;
-//     }
-   
-//     get owner() {
-//       return this._owner;
-//     }
-   
-//     set owner(owner) {
-//       this._owner = owner;
-//     }
-   
-//     get speak() {
-//       return `${this.name} speaks.`;
-//     }
-//   }
-   
-//   // Inherits from Pet
-//   class Dog extends Pet {
-//     constructor(name, breed) {
-//       super(name); /* new */
-//       this.breed = breed;
-//     }
-//   }
-   
-//   let creature = new Pet('The Thing');
-//   let dog = new Dog('Spot', 'Foxhound');
-   
